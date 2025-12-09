@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+   <link rel="stylesheet" type="text/css" href="1.css">
+   <link rel="stylesheet" type="text/css" href="2.js">
+<base target="_blank">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <!-- 侧边栏菜单 -->
+            <div class="menu-item">首页</div>
+            <div class="menu-item">我的作品</div>
+            <div class="menu-item">百科</div>
+            <div class="menu-item">留言板</div>
+        </div>
+        <div class="main-content">
+            <!-- 个人信息 -->
+            <div class="profile">
+                <h2>个人介绍</h2>
+                <p>姓名：xxx</p>
+                <p>性别：xx</p>
+                <p>班级：xxxxx</p>
+            </div>
+
+            <!-- 百科 -->
+            <div class="qa">
+                <h2>百科</h2>
+                <ul>
+                    <li>面试官最爱通过这些面试题考核求职者</li>
+                    <li>奶茶店的水果茶可以放多久，奶茶没开封隔夜喝吗</li>
+                    <li>塑身贴减肥真的靠谱吗 塑身贴对身体真的有害吗</li>
+                </ul>
+            </div>
+
+            <!-- 留言板 -->
+            <div class="message-board">
+                <h2>留言</h2>
+                <div>
+                    <p>杨教授，下月清华教授峰会期待你到来</p>
+                    <p>教授你可以教我写作业么</p>
+                    <p>导师你好，我初试成绩470，应该是最高分，我对你研究方向很感兴趣，希望你不要不识抬举</p>
+                </div>
+            </div>
+
+            <!-- 留言板表单 -->
+            <div class="message-board">
+                <h2>留言板</h2>
+                <form id="messageForm">
+                    <div class="form-group">
+                        <label for="name">姓名：</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="content">内容：</label>
+                        <textarea id="content" name="content" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">提交</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
